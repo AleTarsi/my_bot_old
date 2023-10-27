@@ -152,5 +152,9 @@
         <mu1 value="0.001"/>
         <mu2 value="0.001"/>
     </gazebo>
+    
+	<gazebo>
+	<plugin name="GazeboPlugin" filename="/home/ale/ros2_ws/src/GazeboPlugin/export/lib/libGazeboCoSimPlugin.so"><portNumber>14581</portNumber></plugin>
+	</gazebo>
 
 </robot>
